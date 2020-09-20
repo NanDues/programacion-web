@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario</title>
+</head>
+<body>
+<h2 align="center">Registro de usuario</h2>
+<hr width="500">
+<form method="post" align="center">
+	<label for="usuario">Ingrese un nombre de usuario</label>
+	<input type="text" name="usuario" id="usuario"> <br><br>
+	<label for="correo">Ingrese su e-mail</label>
+	<input type="text" name="correo" id="correo"><br><br>
+	<label for="password">Ingrese contraseña</label>
+	<input type="password" name="password" id="password"><br><br>
+	<label for="pais">País</label>
+	<input type="text" list="paises" id="pais" name="pais">
+	<datalist id="paises">
+		<option value="México"></option>
+		<option value="Argentina"></option>
+		<option value="Peru"></option>
+		<option value="Chile"></option>
+		<option value="Colombia"></option>
+		<option value="Venezuela"></option>
+		<option value="Ecuador"></option>
+		<option value="Panama"></option>
+		<option value="Otro"></option>
+	</datalist><br>
+	<h3 align="center">Seleccione su sexo</h3>
+	<label for="hombre">Hombre</label>
+	<input type="radio" name="genero" id="hombre" value="Hombre"><br>
+	<label for="mujer">Mujer</label>
+	<input type="radio" name="genero" id="mujer" value="Mujer">
+	<h3 align="center">Fecha de nacimiento</h3> 
+	<label for="año">Año</label>
+	<input type="number" name="año" id="año" step="1" value="2000" max="2020" min="1950"><br>
+	<label for="mes">Mes</label>
+	<select id="mes" name="mes">
+		<option value="Enero">Enero</option>
+		<option value="febrero">Febrero</option>
+		<option value="Marzo">Marzo</option>
+		<option value="abril">Abril</option>
+		<option value="mayo">Mayo</option>
+		<option value="junio">Junio</option>
+		<option value="julio">Julio</option>
+		<option value="agosto">Agosto</option>
+		<option value="septiembre">Septiembre</option>
+		<option value="octubre">Octubre</option>
+		<option value="noviembre">Noviembre</option>
+		<option value="Diciembre">Diciembre</option>
+	</select><br>
+	<label for="dia">Día</label>
+	<input type="number" name="dia" id="dia" min="1" max="31" step="1" value="1" >
+	<h3 align="center">Eliga sus intereses</h3>
+	<label for="ciencia">Ciencia </label>
+	<input id="ciencia" type="checkbox" name="intereses" value="ciencia">
+	<label for="tecnologia">Tecnología</label>
+	<input id="tecnologia" type="checkbox" name="intereses" value="tecnologia"> <br>
+	<label for="deportes">Deportes</label>
+	<input type="checkbox" name="intereses" id="deportes" value="deportes">
+	<label for="cocina">Cocina</label>
+	<input type="checkbox" name="intereses" id="cocina" value="cocina"><br>
+	<label for="belleza">Belleza</label>
+	<input type="checkbox" name="intereses" id="belleza" value="belleza">
+	<label for="salud">Salud</label>
+	<input type="checkbox" name="intereses" id="salud" value="salud">
+	<br><br>
+	<p align="center">¿Qué otras áreas de interés le gustaría ver en nuestra página?</p>
+	<textarea name="propuestas" rows="5" cols="40"></textarea> <br>
+	<hr width="500">
+	<input type="submit" name="enviar" value="Registrarse">
+	<input type="reset" name="limpiar" value="Limpiar">
+</form>
+</body>
+</html>
