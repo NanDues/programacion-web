@@ -1,0 +1,67 @@
+/*Estilos de página Modelo en Caja*/
+html{background-color: #CC33FF}
+body{
+	width: 850px;
+	margin-left: 12em;
+	background-color: rgb(255,255,153);
+	padding: 0 50px 20px 50px;
+	border: 5px solid black;
+}
+#fondo{
+	color: #CC6600;
+}
+h4{
+	color: navy;
+	width: 850px;
+	margin:  0px;
+	border: 3px dashed rgb(255,102,51);
+	border-radius: 20px;
+	padding-left: 0;
+	text-align-last: center;
+	}
+h1{
+	font-family: Arial,helvetica,sans-serif;
+	margin: 30px;
+	padding-left: 150px;
+	color: #00539F;
+	font-size: 60px;
+	text-shadow: 3px 3px 3px orange;
+	transition: color .5s;
+}
+h3{
+	font-family: Arial,helvetica,sans-serif;
+	font-size: 30px;
+	color: #FF6600;
+	margin-top: 50px;
+	margin-left: 10px;
+	padding-left: 200px;
+	text-shadow: 5px 1px 20px red;
+}
+p,ul{
+	font-family: Arial,helvetica,sans-serif;
+	font-size: 20px;
+	line-height: 1.5;
+	letter-spacing: 1px;
+}
+.formato{
+	margin-left:250px;
+	padding: 20px;
+}
+a{
+	color: blue;
+	background-color: #99CC99;
+	transition: background-color .5s;
+}
+a:hover{
+	background-color: #999933;
+}
+a:visited{
+	color: purple;
+}
+a:active{
+	color: red;
+}
+h1:hover{
+	color: red;
+}
+

@@ -1,0 +1,42 @@
+#titulo{
+	color: #735; 
+	background: #CC1600; 
+	font-weight: bold;
+	font-size: 60px;
+	}
+.pseudoclases{
+color: #234;
+background: #FF5000;
+font-size: 30px;
+border: 2px solid navy
+}
+a:link{
+color: red;
+}
+a:visited{
+	color: green;
+}
+a:hover{
+	color: white;
+	background: black;
+	font-size: 30px;
+}
+a:active{
+	color: lime;
+}
+input:checked + label{
+	color: red;
+}
+input[type="radio"]:checked {
+	box-shadow: 0 0 0 3px orange;
+}
+input[type="checkbox"]:checked{
+	box-shadow: 0 0 0 3px hotpink;
+}
+option:checked{
+	box-shadow: 0 0 0 3px lime;
+	color: blue;
+}
+input:default{
+	background-color: lime: 
+}

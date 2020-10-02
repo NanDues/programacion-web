@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html> <!-- Código de página modelo en caja -->
+<head>
+	<title>Modelo en Caja</title>
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+<body>
+<header>
+	<h1>Modelo en Caja</h1>
+	
+</header>
+ <article>
+	<h3>¿Qué es el modelo en caja?</h3>
+	<p>El modelo en caja nos dice que todo en CSS tiene una caja alrededor, y comprender estas cajas es clave para poder crear diseños con CSS o para alinear elementos con otros elementos. El modelo define cómo funcionan juntas las diferentes partes de una caja (margen, borde, relleno y contenido). </p>
+ </article>
+ <article>
+ 	<h3>Cajas en bloque y en línea.</h3>
+ 	<p>En CSS, en general, hay dos tipos de cajas: <b >cajas en bloque</b> y <b>cajas en linea.</b> Estas características se refieren al modo como se comporta la caja en términos de flijo y de página y en relación con otras cajas de la página: <br>
+ 		Si una caja se define como un bloque, se comportará de las siguientes maneras: <br>
+ 	</p>
+ 	<ul>
+ 		<li>La caja fuerza un salto de linea al llegar al final de la linea.</li>
+ 		<li>La caja se extenderá en la dirección de la línea para llenar todo el espacio disponible que haya en su contenedor. En la mayoria de los casos, esto significa que la caja será tan ancha como su contenedor, y llenara el 100% del espacio disponible.</li>
+ 		<li>Se respetan las propiedades <b id="fondo">width</b> y <b id="fondo">height.</b></li>
+ 		<li>El relleno, el margen y el borde mantienen a los otros elementos alejados de la caja.</li>
+ 	</ul>
+ 	<p>
+ 		Si una caja tiene una visualización externa de tipo inline, entonces:
+ 	</p>
+ 	<ul>
+ 		<li>La caja no fuerza ningún salto de linea al llegar al final de la línea.</li>
+ 		<li>Las propiedades <b id="fondo">width</b> y <b id="fondo">heigt</b> no se aplican.</li>
+ 		<li>Se aplican relleno, margen y bordes verticales, pero no mantiene alejadas otras cajas en línea.</li>
+ 		<li>Se aplican relleno, margen y bordes horizontales, y mantienen alejadas otras cajas en línea.</li>
+ 	</ul>
+ </article>
+ <article>
+ 	<h3>Partes de una caja</h3>
+ 	<p>Al hacer una caja de tipo bloque en CSS tenemos los siguientes elementos:</p>
+ 	<ul>
+ 		<li>El <b>contenido de la caja</b> (o <em>content box</em>): El área donde se muestra el contenido, cuyo tamaño puede cambiarse utilizando propiedades como <b id="fondo">widht</b> y <b id="fondo">height.</b></li>
+ 		<li>El <b>relleno de la caja</b> (o <em>padding box</em>): El relleno es espacio en blanco alrededor del contenido; es posible controlar su tamaño usando la propiedad <b id="fondo">padding</b> y otras propiedades relacionadas. </li>
+ 		<li>El <b>borde de la caja</b> (o <em>border box</em>): El borde de la caja envuelve el contenido y el de relleno. Es posible controlar su tamaño y estilo utilizando la propiedad <b id="fondo">border</b> y otras propiedades relacionadas.</li>
+ 		<li>El <b>margen de la caja</b>(o <em>margin box</em>): El margen es la capa más externa. Envuelve el contenido, el relleno y el borde como espacio en blanco entre la cada y los otros elementos. Es posible controlar su tamaño usando la propiedad <b id="fondo">margin</b> y otras propiedades relacionadas.</li>
+ 	</ul>
+
+ </article>
+<article>
+	<h3>Márgenes, rellenos y bordes</h3>
+	<h4>Margen</h4>
+	<p>
+		El margen es un espacio invisible que hay alrededor de la caja. Aleja el resto de elementos de la caja. Los márgenes pueden tener valores positivos o negativos. Establecer un margen negativo para algún lado de la caja puede hacer que se superponga con otros elementos de la página. Se pueden controlar todos los márgenes de un elemento a la vez usando la propiedad <b id="fondo">margin</b>, o cada lado individualmente usando las propiedades equivalentes:
+
+	</p>
+	<ul class="formato">
+		<li>margin-top</li>
+		<li>margin-right</li>
+		<li>margin-bottom</li>
+		<li>margin-left</li>
+	</ul>
+
+	<h4>Bordes</h4>
+	<p>
+		El borde se dibuja entre el margen y el área de relleno de una caja. Hay una gran cantidad de propiedades que sirven para aplicar estilo a los bordes: hay 4 bordes y cada borde tiene un estilo, un ancho y un color que podemos modificar. Se puede establecer el ancho, el estilo o el color de los cuatro bordes a la vez utilizando la propiedad <b id="fondo">border</b>. <br>
+		Para establecer las propiedades de cada lado de forma individual, se puede utilizar:
+	</p>
+	<ul class="formato">
+		<li>border-top</li>
+		<li>border-right</li>
+		<li>border-bottom</li>
+		<li>border-left</li>
+	</ul>
+	<p>Para establecer el ancho, el estilo o el color de los lados, se usa lo siguiente:</p>
+	<ul class="formato">
+		<li>border-width</li>
+		<li>border-style</li>
+		<li>border-color</li>
+	</ul>
+	<p>Para establecer el ancho, el estilo o el color de un solo laso, puede utilizarse una se las siguiente propiedades:</p>
+	<ul class="formato">
+		<li>border-top-width</li>
+		<li>border-top-style</li>
+		<li>border-top-color</li>
+		<li>border-right-width</li>
+		<li>border-right-style</li>
+		<li>border-right-color</li>
+		<li>border-bottom-width</li>
+		<li>border-bottom-style</li>
+		<li>border-bottom-color</li>
+		<li>border-left-width</li>
+		<li>border-left-style</li>
+		<li>border-left-color</li>
+	</ul>
+
+	<h4>Relleno</h4>
+	<p>El relleno se encuentra entre el borde y el área de contenido. A diferencia de los márgenes, el relleno no puede tomar valores negativos, por lo que el valor debe ser 0 o positivo. Se puede controlar el área de relleno para todos los lados de un mismo elemento usando la propiedad <b id="fondo">padding</b>, o para cada uno de los lados usando las propiedades equivalentes:</p>
+	<ul class="formato">
+		<li>padding-top</li>
+		<li>padding-right</li>
+		<li>padding-bottom</li>
+		<li>padding-left</li>
+	</ul>
+</article>
+<hr>
+<footer>
+	<p>Fuente consultada <a href="https://developer.mozilla.org/es/docs/Learn/CSS/Building_blocks/El_modelo_de_caja" target="_blank">Modelo Caja</a></p>
+</footer>
+</body>
+</html>
