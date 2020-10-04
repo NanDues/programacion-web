@@ -1,0 +1,110 @@
+html{
+	background-color: rgb(121,85,72); /*225 190 231*/
+}
+h1{
+	text-align: center;
+	color: rgb(78,52,46);
+	font-family: Verdana;
+	text-shadow: 3px 3px 2px #FFB74D;
+	transition: color .5s;
+}
+h1:hover{
+	color: purple;
+}
+h3{
+	text-align: center;
+	font-family: verdana;
+	color: rgb(120,66,18);
+	text-shadow: 1px 2px 3px gray;
+}
+body{
+	width: 1050px;
+	height: auto;
+	margin-left: 8em;
+	background: rgb(232,234,246);
+	border: 10px solid purple;
+	border-style: double;
+}
+img{
+	margin-left: 19em;
+	border-color: purple;
+	border-radius: 20px;
+
+}
+#seccion_1{
+	color: rgb(121,85,72);
+	margin-left: 5em;
+	margin-right: 5em;
+	font-family:"Lucida console";
+	line-height: 25px;
+	font-weight: 500;
+	font-size: 20px;
+}
+ul{
+	color: purple;
+	list-style-type: circle;
+}
+ol{
+	color: purple;
+	margin-left: 2em;
+}
+a{
+	color: orange;
+	transition: color .5s;
+}
+a:hover{
+	background-color: lightgreen;
+	color: red;
+}
+a:active{
+	background-color: rgb(206,157,216);
+	color: blue;
+}
+footer{
+	margin-top: 5em;
+	margin-bottom: 2em;
+	text-align: center;
+}
+#formulario{
+	margin-left: 15em;
+}
+form{
+	width: 400px;
+	padding: 16px;
+	border-radius: 10px;
+	background-color: #ccc;
+}
+ form input[type="text"], form input[type="email"]{
+ 	width: 350px;
+ 	border:1px solid #f6f6f6;
+ 	border-radius: 3px;
+ 	background-color: #f6f6f6;
+ 	padding: 10px 11px 5px 5px;
+ 	margin-left: 10px;
+ 	margin-bottom: 1em;
+ }
+ 
+ form label{
+ 	padding-left: 10px;
+ 	font-size: 20px;
+ 	color: darkblue;
+ 	font-weight: 700;
+ }
+ form a{
+ 	color: blue;
+ }
+ form input[type="submit"]{
+
+ 	color: blue;
+ 	width: 100px;
+ 	border-radius: 10px;
+ 	margin-left: 20em;
+ }
+ span{
+ 	color: rgb(121,85,72);
+	margin-left: 1px;
+	font-family:"Lucida console";
+	line-height: 25px;
+	font-weight: 500;
+	font-size: 25px;
+ }
