@@ -1,0 +1,6 @@
+.row>div{
+	background-color: lightblue;
+	color: purple;
+	text-align: center;
+	border:1px solid blue;
+}
