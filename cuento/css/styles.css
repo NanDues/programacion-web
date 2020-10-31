@@ -14,6 +14,12 @@ h1{
 body{
  	background-color: rgb(233, 247, 239);
  }
- .btn{
+ .badge{
  	margin-top: 25px;
+ 	padding-top: 12px;
+ 	height: 40px;
+ 	font-family: 'Kalam', cursive;
+	font-size: 1.2em;
+    letter-spacing: 0.3em;
+ 	width: 1000px;
  }

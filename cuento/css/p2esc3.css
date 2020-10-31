@@ -37,13 +37,12 @@ right: 60px;
 }
 
 
-.btnSig, .btnAnt{
- 
-	border-radius: 15px;
-	padding: 10px;
-   font-family: 'Kalam',cursive;
+.badge{
+	margin-top: 10px;
+	margin-bottom: 20px;
+	font-family: 'Kalam', cursive;
+	font-size: 1.2em;
    letter-spacing: 0.3em;
-   margin-top: 20px;
 }
 
 @media (min-width:992px )and (max-width: 1200px){
