@@ -1,0 +1,30 @@
+.jumbotron{
+	background-color: rgb(133,193,233);
+}
+body{
+	background-color: rgb(235,245,251);
+}
+
+h2{
+	font-family: 'Caveat', cursive;
+	color: rgb(14,98,81);
+}
+
+p{
+	font-family: 'Pragati Narrow', sans-serif;
+}
+
+h1{
+	color: rgb(11,83,69);
+}
+
+ol{
+	font-family: 'Pragati Narrow', sans-serif;
+	line-height: 2em;
+	word-spacing: .2em;
+	font-size: 1.2em;
+}
+
+.breadcrum{
+	display: inline;
+}
