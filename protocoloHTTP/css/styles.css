@@ -1,0 +1,62 @@
+.jumbotron{
+	background-color: rgb(174,213,129);
+	text-align: center;
+	margin-top: 3em;
+}
+.card-header{
+	font-weight: 700;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+h1{
+	color: rgb(51,105,30);
+	font-size: 3.5em;
+	letter-spacing: .2em;
+	text-shadow: 3px 3px 2px black;
+}
+h2{
+	font-family: 'Prompt', sans-serif;
+	font-weight: 800;
+	background-color: rgb(197,255,165);
+	border-left: 6px solid green;
+}
+h4{
+	font-style: italic;
+	font-weight: 400;
+	text-decoration: underline;
+	text-decoration-color: green;
+}
+.card-text{
+	color: black;
+}
+footer{
+	font-weight: 700;
+	font-size: 1.5em;
+	text-align: center;
+	border-top: 2px solid green;
+	background-color: rgb(174,213,129);
+
+}
+ul{
+	font-family: 'Prompt', sans-serif;
+	font-weight: 800;
+	list-style: none;
+}
+li a{
+	color: green;
+}
+p span{
+	background-color: rgb(220,237,200);
+}
+#Breferencias{
+	background-color: rgb(174,213,129);
+	border-radius: 20px;
+	border-color: green;
+}
+#links{
+	display: none;
+}
+button{
+	border: 0px ;
+}

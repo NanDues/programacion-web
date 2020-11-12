@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTTP</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Patrick+Hand&family=Prompt:wght@200&display=swap" rel="stylesheet">
+<script src="js/script.js" defer></script>
+</head>
+<body>
+
+<nav class="navbar navbar-dark navbar-expand-sm bg-dark fixed-top">
+	<div class="container-fluid">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<span class="navbar-brand mr-auto" href="index.html">HTTP</span>
+		<div class="collapse navbar-collapse" id="Navbar">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item active"><a class="nav-link" href="index.html">Inicio</a></li>
+			</ul>
+		</div>
+	</div>
+
+</nav>
+<header class="container-fluid jumbotron">
+	<div class="row">
+		<div class="col-12">
+			<h1>Protocolo HTTP</h1>
+		</div>
+	</div>
+</header>
+
+<section class="container">
+	<div class="row">
+		<div class="col-12 col-md-6">
+			<h2>¿Qué es el protocolo HTTP?</h2>
+			<p>El HTTP (del inglés <i>HyperText Transfer Protocol</i> o Protocolo de Transferencia de Hiper Textos) es el <b>protocolo de transmisión de información de la World Wide Web</b>, es decir, el código que se establece para que el computador solicitante y el que contiene la información solicitada puedan "hablar" un mismo idioma a la hora de transmitir información por la red. </p>
+		</div>
+		<div class="col-12 col-md-6">
+			<img src="imagenes/imagen.jpg" class="img-fluid">
+		</div>
+	</div>
+  	<div class="row">
+  		<div class="col-12">
+  			<p>Con el HTTP se establecen criterios de sintaxis y semántica informática para el establecimiento de la comunicación entre los diferentes elementos que constituyen la arquitectura wen: servidores, clientes, proxies. Fue creado en 1999 por el World Wide Web Consosrtium en colaboración con la Internet Engineering Task Force</p>
+  		</div>
+  	</div>
+  	<div class="row align-items-center">
+  		<div class="col-12">
+  			<h2>¿Para qué sirve el protocolo HTTP?</h2>
+  		</div>
+  		<div class="col-12 col-md-7">
+  			<p>El HTTP es un lenguaje que media entre las peticiones del cliente y las respuestas del servidor en la Internet, para permitir una comunicación fluida y en un mismo "lenguaje". Este protocolo establece las pautas a seguir, los métodos de petición y cuenta con cierta flexibilidad para incorporar nuevas peticiones y funcionalidades. </p>
+  		</div>
+  		<div class="col-12 col-md-5">
+  			<p>Considerando que la internet es un poco más que una compleja red de intercambio de información entre computadoras a distancia, este tipo de herramientas digitales son clave en establecer las bases para ordenar y facilitar la transmisión de la información.</p>
+  		</div>
+  	</div>
+  <div class="row align-items-center">
+  	<div class="col-12 col-md-6">
+  		<img src="imagenes/capasHTTP.png" class="img-fluid">
+  	</div>
+  	<div class="col-12 col-md-6">
+  		<h2>¿Cómo funciona el protocolo HHTP?</h2>
+  		<p>El funcionamiento de HTTP se basa en un esquema de<b> petición-respuesta</b> entre el servidor web y el "agente usuario" o cliente, que realiza la solicitud de transmisión de datos. Un cliente puede ser un explorador determinado, cuando intentamos abrir una página web, o los rastreadores web que las inspeccionan. </p>
+  	</div>
+  
+  	<div class="row">
+  		<div class="col-12"><p>A ellos el servidor brinda una respuesta estructurada de modo puntual y dotada de una serie de metadatos, que establecen las pautas para el inicio, desarrollo y cierre de la transmisión de la información. Estos son lo métodos de petición, es decir, los comandos que disparan la ejecución de recursos determinados, cuyos archivos residen en el servidor.</p></div>
+  	</div>
+  </div>
+  <div class="row align-items-center">
+  	<div class="col-12">
+  		<h2>¿Qué se puede controlar con HTTP?</h2>
+  	</div>
+  	<div class="col-6 col-md-7">
+  		
+  		<h4>Cache</h4>
+  		<p>El como se almacenan los documentos en la caché, puede ser especificado por HTTP. El servidor puede indicar a los proxies y clientes, que quiere almacenar y durante cuanto tiempo.</p>
+  	</div>
+  	<div class="col-6 col-md-5">
+  		<h4>Flexibilidad del requisito de origen</h4>
+  		<p>Para prevenir invasiones a la privacidad de los usuarios, los navegadores web, solamente permiten a páginas del mismo origen, compartir la información o datos. Esto es una complicación para el servidor, así que mediante cabeceras HTTP, se puede flexibilizar o relajar esta división entre cliente y servidor.</p>
+  	</div>
+  </div>
+    </div>
+  <div class="row">
+  <div class="col-12 col-md-4">
+  	<h4>Auntentificación</h4>
+  	<p>Hay páginas web, que pueden estar protegidas, de manera que solo los usuarios autorizados puedan acceder. HTTP provee de servicios básicos de autentificación, por ejemplo mediante el uso de cabeceras como: <span> WWW.Authenticate</span>, o estableciendo una sesión específica mediante el uso de HTTP cookies.</p>
+  </div>
+  <div class="col-12 col-md-4">
+  	<h4>Proxies y tunneling</h4>
+  	<p>Servidores y/o clientes pueden estar en intranets y esconder así su verdadera dirección IP a otros. Las peticiones HTTP utilizan los proxies para acceder a ellos. Pero no todos los proxies HTTP son proxies. El protocolo SOCKS, por ejemplo, opera a un nivel más bajo. Otros protocolos como el FTP, pueden ser servidos mediante estos proxies.</p>
+  </div>
+  <div class="col-12 col-md-4">
+  	<h4>Sesiones</h4>
+  	<p>El uso de HTTP cookies permite relacionar peticiones con el estado del servidor. Est odefine las seciones, a pesar de que por definición el protocolo HTTP es un protocolo son estado. Esto es muy útil no sólo para aplicaciones de comercio electrónico, sino tambipen para cualquier sitio que permita configuración al usuario.</p>
+  </div>
+</div>
+<div class="row">
+	<div class="col-12">
+		<div class="card border-success mb-3" id="tarjeta">
+			<div class="card-header">¿Qué es HTTPS? </div>
+			<div class="card-body text-primary">
+				<p class="card-text">Por HTTPS se entiende HyperText Transfer Protocol Secure o Protocolo Seguro de Transferencia de Hipertexto, se puede decir que es la versión segura del HTTP, es decir, una variante del mismo protocolo que se basa en la creación de un canal cifrado para la transmisión de la información, lo cual lo hace más apropiado para ciertos datos de tipo sensibles (como claves).</p>
+			</div>
+		</div>
+	</div>
+</div>
+</section>
+
+<footer class="container-fluid">
+	<div class="row">
+		<div class="col-11">
+			Fuentes Consultadas
+		</div>
+		<div class="col-1">
+			<button id="Breferencias">+</button>
+		</div>
+	</div>
+	<div class="row">
+	<div class="col-11">
+		<ul id="links">
+			<li><a href="https://developer.mozilla.org/es/docs/Web/HTTP/Overview" target="_blank">Developer Mozilla</a> </li>
+			<li><a href="https://concepto.de/http/" target="_blank">Concepto de</a></li>
+		</ul>
+	</div>
+	</div>
+</footer>
+
+<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script> 
+</body>
+</html>
